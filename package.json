@@ -1,9 +1,12 @@
 {
-  "name": "@dollarshaveclub/cloudworker",
+  "name": "@StrangerSystems/cloudworker",
   "version": "0.2.0",
-  "description": "node.js runner for Cloudflare Workers",
+  "description": "node.js runner for Cloudflare Workers. Originally developed by DollarShaveClub.",
   "main": "index.js",
   "types": "index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "bin": {
     "cloudworker": "./bin/cloudworker.js"
   },
@@ -16,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dollarshaveclub/cloudworker.git"
+    "url": "git+https://github.com/StrangerSystems/cloudworker.git"
   },
   "license": "MIT",
   "bugs": {
